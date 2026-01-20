@@ -246,10 +246,139 @@ header{
 }
 
 .item-name{
+    text-transform: uppercase;
+    padding-top: 16px;
+}
+
+
+/* why-choose section styles */
+
+#why-choose{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: #230E3D;
+
+}
+.why-choose-section{
+    text-align: center;
+}
+
+.feature-cards{
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 30px;
+}
+.card{
+    background-color: rgba(53, 17, 101, 0.4);
+    padding: 40px;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    text-align: left;
+
+
+}
+.long-card{
+    grid-column: span 1;
+    grid-row: span 2;
+    align-items: center;
+}
+
+.normal-card{
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.small-card{
+    grid-column: span 1;
+    grid-row: span 1;  
+}
+
+.card-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #fff;
+    padding-top: 24px;
+    padding-bottom: 16px;
+}
+.card-text{
     font-size: 1rem;
     font-weight: 400;
     color: #fff;
-    line-height: 20px;
-    text-transform: uppercase;
-    padding-top: 16px;
+    line-height: 24px;  
+}
+
+
+/* Episodes section styles */
+
+#episodes{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: #1A0B2E;
+
+}
+.episodes-section{
+    text-align: center;
+}
+
+.episodes-container{
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 30px;
+}
+.episodes-item{
+    background-color: #250D44;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.episodes-video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/Episodes1.png");
+    padding-top: 77px;
+    padding-bottom: 77px;
+}
+.play-btn{
+  padding: 14px 14px 9px 19px;
+  cursor: pointer;
+  background: linear-gradient(55deg, #F7E93F, #FB09B4, #9100F8);
+  border-radius: 50px;
+
+}
+.episodes-item-content{
+    padding: 24px;
+    text-align: left;
+}
+.episodes-item-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.episodes-item-text{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #fff; 
+    padding-top: 12px;
+    padding-bottom: 12px;  
+}
+
+.episodes-duration{
+    align-items: center;
+    gap: 8px;
+}
+.episodes-duration-text{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #00FF88;     
 }
