@@ -38,7 +38,7 @@ header{
 
  /* banner responsive styles*/
 #banner{
-    padding-top: 40px;
+    padding-top: 80px;
     padding-bottom: 40px;
 }
 
@@ -50,7 +50,7 @@ header{
     position: absolute;
     right: 6px;
     top: 6px;
-    padding: 6px 10px;
+    padding: 8px 12px;
 }
 
 .new-badge h5{
