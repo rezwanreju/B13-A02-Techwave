@@ -25,11 +25,10 @@
   align-items: center;
   }
 
-  .btn-primary{
+.btn-primary{
   font-size: 1rem;
   font-weight: 600;
   color: #fff;
-  background-color: blue;
   padding: 13px 16px;
   cursor: pointer;
   background: linear-gradient(55deg, #F7E93F, #FB09B4, #9100F8);
@@ -39,6 +38,9 @@
   -ms-border-radius: 50px;
   -o-border-radius: 50px;
   border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .title{
@@ -85,7 +87,7 @@ header{
   text-decoration: none;
 }
 
-.btn-primary{
+.btn-header{
   font-size: 1rem;
   font-weight: 600;
   color: #fff;
@@ -103,10 +105,14 @@ header{
   align-items: center;
 }
 
+
 .btn-icon-right{
     padding-left: 7px;
 }
 
+.toggle-btn{
+    display: none;
+}
 
 /* banner section styles */
 

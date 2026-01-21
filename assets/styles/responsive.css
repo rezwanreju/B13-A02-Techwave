@@ -1,0 +1,245 @@
+
+
+@media only screen and (max-width: 576px) {
+
+/* shared responsive styles */
+.btn-primary{
+  padding: 12px 20px;
+}
+.title{
+    font-size: 2rem;
+}
+
+    /* header responsive styles */
+header{
+  padding: 18px;
+}
+
+.logo img{
+    width: 140px;
+}
+
+.toggle-btn{
+    display:inline;
+}
+
+.nav-links{
+    display: none;
+ }
+
+  button.btn-header {
+    display: none;
+}
+
+.container{
+   max-width: 100%;
+}   
+
+
+ /* banner responsive styles*/
+#banner{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.podcast-circle{
+    height: 200px;
+    width: 200px;
+}
+.new-badge{
+    position: absolute;
+    right: 6px;
+    top: 6px;
+    padding: 6px 10px;
+}
+
+.new-badge h5{
+    font-size: .8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.podcast-icon{
+    padding-top: 45px;
+    padding-bottom: 0px;
+}
+
+.podcast-icon img{
+    width: 70px;
+}
+
+.banner-content{
+  padding-top: 24px; 
+}
+
+.banner-title{
+    font-size: 2.5rem;
+}
+
+.banner-text{
+    padding-top: 8px;
+}
+
+.btn2{
+  padding: 11px 20px;
+}
+
+/* About section responsive styles */
+
+#about{
+    padding: 40px 20px;
+}
+
+.about-text{
+    padding-bottom: 24px;
+}
+
+.gap{
+    padding-bottom: 40px;
+}
+.statistics-items{
+    padding-top: 40px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.item-number{
+    font-size: 2.5rem;
+}
+
+
+/* why-choose section responsive styles */
+
+#why-choose{
+    padding: 40px 20px;
+}
+
+.feature-cards{
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+}
+.card{
+    padding: 24px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.long-card{
+    grid-column: span 1;
+    grid-row: span 1;
+    align-items: center;
+}
+
+.normal-card{
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.small-card{
+    grid-column: span 1;
+    grid-row: span 1;  
+}
+
+.card-title{
+    font-size: 1.3rem;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+
+/* Episodes section responsive styles */
+
+#episodes{
+    padding: 40px 20px;
+
+}
+
+.episodes-container{
+    padding-top: 30px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+}
+
+.episodes-video iframe{
+    max-height: 220px;
+}
+
+.episodes-item-content{
+    padding: 1rem;
+}
+.episodes-item-title{
+    font-size: 1.25rem;
+}
+
+.episodes-item-text{
+    padding-top: 8px;
+    padding-bottom: 8px;  
+}
+
+/* Host section responsive styles */
+
+#host{
+    padding: 20px 20px 40px 20px;
+}
+
+.host-container{
+        display: block !important;
+        margin-top: 24px;
+        gap: 24px;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+}
+
+.host-content{
+    text-align:center;
+}
+.host-name{
+    font-size: 1.5rem;
+    padding-top: 16px;
+}
+
+.host-social{
+  padding-top: 16px;
+  display: flex;
+  justify-content: center !important;
+}
+
+
+/* Footer section responsive styles */
+
+footer{
+    padding: 40px 20px;
+}
+
+.footer-section{
+  width: 100%;
+}
+
+.footer-logo{
+    max-width: 220px;
+}
+
+.footer-socials{
+    padding-top: 24px;
+    grid-template-columns: repeat(2, auto);
+    gap: 22px 40px;
+    justify-content: center; 
+}
+
+
+.copyright-text{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #fff;
+    padding-top: 32px;     
+}
+
+
+}
+
